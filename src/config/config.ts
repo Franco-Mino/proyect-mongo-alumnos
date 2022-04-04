@@ -1,7 +1,7 @@
 import {config} from "dotenv";
 config()
 // este repo solo muestra de manera local el funcionamiento del back.
-const date = "mongodb://127.0.0.1/loginTsAndMongo"
+const date = "mongodb+srv://packton235:Cralex2354195@login-mongo.5zjm9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 export default {
     jwtSecret: process.env.JWT_SECRET || 'somesecretttoken',
     DB: {
