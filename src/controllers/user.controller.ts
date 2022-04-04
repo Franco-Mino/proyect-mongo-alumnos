@@ -2,7 +2,6 @@ import { Request, Response } from "express";
 import User, { IUser } from "../models/User";
 import jwt from "jsonwebtoken";
 import config from "../config/config";
-import bcrypt from "bcrypt";
 
 
 

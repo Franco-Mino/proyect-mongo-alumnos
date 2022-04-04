@@ -1,7 +1,6 @@
 import { Router } from "express";
-import { Request, Response } from "express";
-import User, { IUser } from "../models/User";
-import Notas, { INotas } from "../models/Notas";
+import User from "../models/User";
+import Notas from "../models/Notas";
 import passport from "passport"
 const router = Router();
 

@@ -1,6 +1,6 @@
 import {model, Schema, Document} from "mongoose";
 import bcrypt from "bcrypt";
-import { use } from "passport";
+
 
 
 export interface IUser extends Document{
