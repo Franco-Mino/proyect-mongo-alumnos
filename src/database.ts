@@ -3,7 +3,6 @@ import DB from "./config/config";
 
 import {config} from "dotenv";
 config()
-console.log(DB.DB.URI)
 
 mongoose.connect(DB.DB.URI);
 
